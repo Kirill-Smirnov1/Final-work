@@ -21,6 +21,7 @@ Console.WriteLine("Введите размер массива:");
 string[] arr_1 = Words(int.Parse(Console.ReadLine()));
 Print(arr_1);
 
-
+string[] group = Array.FindAll(arr_1, person => person.Length <= 3);
+Print(group);
 
 
